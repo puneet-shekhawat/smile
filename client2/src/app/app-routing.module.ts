@@ -53,7 +53,7 @@ const appRoutes: Routes = [
     {
         path: 'donations',
         component: DonationsComponent,
-        canActivate: [NotAuthGuard]
+        // canActivate: [NotAuthGuard]
     },
     {
         path: 'movements',
@@ -64,7 +64,7 @@ const appRoutes: Routes = [
     {
         path: 'volunteer',
         component: VolunteerComponent,
-        canActivate: [NotAuthGuard]
+        // canActivate: [NotAuthGuard]
 
     },
     {
@@ -86,7 +86,7 @@ const appRoutes: Routes = [
 
     },
     {
-        path: 'donations/clothes',
+        path: 'donations/cloth',
         component: ClothesComponent,
         canActivate: [AuthGuard]
 
